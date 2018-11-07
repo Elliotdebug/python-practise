@@ -1,0 +1,6 @@
+from collections import OrderedDict
+	
+dict = {100: 25, 20: 1, 10: 5, 5: 3, 2:1}
+print(dict)
+b=OrderedDict(sorted(dict.items()))
+print(b)
